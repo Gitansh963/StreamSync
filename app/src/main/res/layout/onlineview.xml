@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/onlineLayout"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:elevation="4dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageOnline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo2"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="00:00"
+            android:textAlignment="textEnd"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/white"
+            android:background="#55000000"
+            tools:ignore="RtlCompat" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/name_online"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="name"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/desc_online"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="desc"
+        android:gravity="center_vertical"
+        />
+
+
+
+</LinearLayout>
