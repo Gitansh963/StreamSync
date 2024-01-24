@@ -106,7 +106,7 @@ class Online : Fragment() {
             AndroidJsonFactory.getDefaultInstance(),
             null
         ).setApplicationName("streamsync")
-            .setYouTubeRequestInitializer(YouTubeRequestInitializer("AIzaSyBLi-QNZA4CEPM2cjCXc1tZse1aMSrl4wE"))
+            .setYouTubeRequestInitializer(YouTubeRequestInitializer("ADd-your api key"))
             .build()
 
 //        val query = "Cards"
